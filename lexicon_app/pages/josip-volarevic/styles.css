@@ -1,0 +1,43 @@
+#main {
+  background: linear-gradient(rgb(2, 0, 36) 0%, rgba(255, 145, 0, 0.945) 0%, rgb(255, 234, 214) 40%, rgb(255, 255, 255) 100%);
+}
+
+.flex-row {
+  display: flex;
+}
+
+#b-tgroup {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.b-tgroup__image {
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+.b-about__p {
+  width: 50%;
+  min-width: 400px;
+  margin: 0 auto;
+}
+
+.b-my-projects__h2, .b-about__h2, .b-about__p {
+  text-align: center;
+}
+
+.b-my_projects__table {
+  margin: 0 auto;
+}
+
+.b-my_projects__table th{
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+.b-my_projects__table th, .b-my_projects__table td{
+  padding: 0 1.4rem;
+}
